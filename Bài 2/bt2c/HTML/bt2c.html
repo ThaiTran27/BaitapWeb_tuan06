@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài TH tuần 4 - Bài 2c</title>
+  <link rel="stylesheet" href="../CSS/boostrap/bootstrap.min.css">
+  <script src="../JS/jquery-3.7.1.min.js"></script>
+  <script src="../JS/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <div class="container">
+        <form>
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="inputUsername">Username*</label>
+              <input type="text" class="form-control mt-2 mb-3" placeholder="Choose your username" id="inputUsername">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputCompanyName">Company name*</label>
+              <input type="text" class="form-control mt-2 mb-3" placeholder="your company name" id="inputCompanyName">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="inputEmail4">Email*</label>
+              <input type="email" class="form-control mt-2 mb-3" id="inputEmail4" placeholder="Your current email address">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputCategory">Category*</label>
+              <input type="text" class="form-control mt-2 mb-3" id="inputCategory" placeholder="skills category">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="inputPassword">Password*</label>
+              <input type="password" class="form-control mt-2 mb-3" id="inputPassword" placeholder="Create a password">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputCategory">Contact number*</label>
+              <input type="text" class="form-control mt-2 mb-3" id="inputCategory" placeholder="provide your number">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="inputFullname">Fullname*</label>
+              <input type="text" class="form-control mt-2 mb-3" id="inputFullname" placeholder="Your first name and Last name">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="inputLocation">Your location*</label>
+              <input type="text" class="form-control mt-2 mb-3" id="inputLocation" placeholder="Your Pincode and City">
+            </div>
+          </div>
+          <div class="row">
+            <div class="form-check col-md-6 mr-0 ps-2">
+              <label for="gender">Gender*</label>
+              <div class="d-flex">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="gender" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1"> Male</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="exampleRadios" id="gender" value="option1" checked>
+                  <label class="form-check-label" for="exampleRadios1">Female</label>
+                </div>
+              </div>
+              </div>
+            <div class="form-group col-md-6">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                <label class="form-check-label" for="invalidCheck">
+                  Agree to terms and conditions
+                </label>
+                <div class="invalid-feedback">
+                  You must agree before submitting.
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="row">
+            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              <button type="button" class="btn btn-info">Sign up</button>
+              <span>or</span>
+              <button type="button" class="btn btn-primary">Sign Up with Facebook</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    
+</body>
+</html>

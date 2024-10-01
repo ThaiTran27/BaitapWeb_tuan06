@@ -1,0 +1,12 @@
+label {
+    color: #656363;
+    font-weight: 500;
+}
+
+table {
+    background-color: #F7FAFF;
+}
+
+.no-border {
+    border: none;
+}
